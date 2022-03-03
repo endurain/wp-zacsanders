@@ -9,7 +9,7 @@ function crimson_review_init() {
 
 	// register the type
 	register_post_type(
-		'reviews',
+		'pictures',
 		array(
 			'labels'              => array(
 				'name'                => _x($pluralLabel, 'Post Type General Name'),
@@ -42,7 +42,8 @@ function crimson_review_init() {
 			'capability_type'     => 'post',
 			'rewrite'             => array('with_front' => false,'slug' => ''),
 			// 'taxonomies'          => array('team_member_category'),
-			'show_in_rest'        => true // Set to false to disable Gutenberg-style editor
+			'show_in_rest'        => true, // Set to false to disable Gutenberg-style editor
+            'rest_base'             => 'pictures',
 		)
 	);
 	
