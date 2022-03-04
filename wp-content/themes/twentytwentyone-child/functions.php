@@ -56,7 +56,6 @@ function crimson_review_init() {
 	// 		'label' => $singleLabel . ' Categories'
 	// 	)
 	// );
-	
 
 }
 
