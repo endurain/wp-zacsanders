@@ -57,7 +57,6 @@ function crimson_review_init() {
 	// 	)
 	// );
 
-	
 
 }
 
